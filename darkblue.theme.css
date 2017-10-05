@@ -1,4 +1,4 @@
-//META{"name":"Dark Blue Theme","description":"Dark, blue theme for BetterDiscord   --   Requires Dark Theme to be enabled in Settings->Appearance   --   Released 2017-09-22","author":"redslime#8503","version":"1.4.1"}*//
+//META{"name":"Dark Blue Theme","description":"Dark, blue theme for BetterDiscord   --   Requires Dark Theme to be enabled in Settings->Appearance   --   Released 2017-10-05","author":"redslime#8503","version":"1.4.2"}*//
 @-webkit-keyframes line {  
   0% { border-color: #00b0f4; }
   33% { border-color: #00ff6f; }
@@ -1161,10 +1161,6 @@
 .connecting, .theme-dark .layer, .theme-dark .incoming-call-inner {
     background: #000615;
 }
-.wrapper-2xO9RX, .unread-mentions-indicator-bottom, .unread-mentions-indicator-top {
-    background-color: #faa61a;
-    -webkit-animation: unread 2s ease-in-out infinite;
-}
 .theme-dark .ui-video, .theme-dark .private-channel-call.minimum .private-channel-call-actions .center {
     background-color: #151e2d;
 }
@@ -1217,4 +1213,8 @@
 }
 .name-3gtcmp {
     text-align: center;
+}
+.mention-RlZ5F3, .mention-RlZ5F3:hover {
+    background-color: rgb(250, 166, 26);
+    animation: unread 1.5s infinite;
 }
