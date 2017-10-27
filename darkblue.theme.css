@@ -1,4 +1,4 @@
-//META{"name":"Dark Blue Theme","description":"Dark, blue theme for BetterDiscord   --   Requires Dark Theme to be enabled in Settings->Appearance   --   Released 2017-10-05","author":"redslime#8503","version":"1.4.2"}*//
+//META{"name":"Dark Blue Theme","description":"Dark, blue theme for BetterDiscord   --   Requires Dark Theme to be enabled in Settings->Appearance   --   Released 2017-10-27","author":"redslime#8503","version":"1.5"}*//
 @-webkit-keyframes line {  
   0% { border-color: #00b0f4; }
   33% { border-color: #00ff6f; }
@@ -58,11 +58,17 @@
     box-shadow: 0 0 10px 2px rgba(0,0,0,.12), 0 0 0 0 transparent;
     }
 }
-.theme-dark .friends-table, .theme-dark .messages-wrapper {
+.theme-dark .friends-table, .theme-dark .messages-wrapper, .theme-dark .chat form {
     background-color: #1d232d;
 }
-.guild-header header {
+.guild-header header, .theme-dark .title-qAcLxz {
     background-color: #101721;
+    border-bottom: 1px solid #00b0f4;
+    -webkit-animation: line 30s ease-in-out infinite;
+    height: 47px;
+}
+.appMount-14L89u {
+    background-color: black;
 }
 .guild-header header:hover {
     background-color: rgb(13, 18, 27);
@@ -70,7 +76,7 @@
 .theme-dark .channel-members, .theme-dark .channel-members-loading .heading, .theme-dark .channel-members-loading .member {
     background-color: #151e2d;
 }
-.guild-channels {
+.guild-channels, .theme-dark .headerBar-cxbhPD {
     background-color: #101721;
 }
 .guild-channels .channel-text.selected {
@@ -197,7 +203,8 @@
 .header-toolbar .toolbar-badge {
     background-color: #00b0f4;
 }
-.mention, .search-popout .search-option .filter, .search-popout .option .filter, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__current-month, .theme-light .ui-calendar-picker .react-datepicker__current-month, .chat>.title-wrap>.title .channel-name .channel-icon {
+.mention, .search-popout .search-option .filter, .search-popout .option .filter, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__current-month,
+.theme-light .ui-calendar-picker .react-datepicker__current-month, .chat>.title-wrap>.title .channel-name .channel-icon, .channelIcon-1KtcMW {
     color: #00b0f4;
 }
 .theme-dark .message-group .comment .markup .mention:hover {
@@ -225,7 +232,7 @@
     border-top: 1px solid #00b0f4;
     margin-top: -2px;
 }
-.chat>.title-wrap>.topic .aka {
+.chat>.title-wrap>.topic .aka, .aka-2Ba14Z {
     background: #303b4e;
 }
 .chat>.title-wrap>.title .channel-name:before {
@@ -265,9 +272,9 @@
     text-align: center;
     font-size: 100%;
 }
-.theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected {
-    background-color: #00ffd9;
-    color: #36393e;
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected, .theme-dark #friends .tab-bar .tab-bar-item.selected {
+    background: linear-gradient(120deg,#1ad6ff 0,#00ff8b 100%);
+    color: #36393e !important;
 }
 .chat .new-messages-bar {
     background-color: #faa61a;
