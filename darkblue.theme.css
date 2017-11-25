@@ -1,4 +1,4 @@
-//META{"name":"Dark Blue Theme","description":"Dark, blue theme for BetterDiscord   --   Requires Dark Theme to be enabled in Settings->Appearance   --   Released 2017-10-27","author":"redslime#8503","version":"1.5"}*//
+//META{"name":"Dark Blue Theme","description":"Dark, blue theme for BetterDiscord   --   Requires Dark Theme to be enabled in Settings->Appearance   --   Released 2017-11-25","author":"redslime#8503","version":"1.5.1"}*//
 @-webkit-keyframes line {  
   0% { border-color: #00b0f4; }
   33% { border-color: #00ff6f; }
@@ -58,6 +58,20 @@
     box-shadow: 0 0 10px 2px rgba(0,0,0,.12), 0 0 0 0 transparent;
     }
 }
+@-webkit-keyframes online-pulse {
+    0% {
+        -webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,.12), 0 0 0 0 rgba(42, 255, 74, 0.42);
+        box-shadow: 0 0 10px 2px rgba(0,0,0,.12), 0 0 0 0 rgba(31, 255, 74, 0.42);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,.12), 0 0 10px 10px transparent;
+        box-shadow: 0 0 10px 2px rgba(0,0,0,.12), 0 0 10px 10px transparent;
+    }
+    100% {
+        -webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,.12), 0 0 0 0 transparent;
+        box-shadow: 0 0 10px 2px rgba(0,0,0,.12), 0 0 0 0 transparent;
+    }
+}
 .theme-dark .friends-table, .theme-dark .messages-wrapper, .theme-dark .chat form {
     background-color: #1d232d;
 }
@@ -68,7 +82,7 @@
     height: 47px;
 }
 .appMount-14L89u {
-    background-color: black;
+    background: linear-gradient(180deg, black, #101721 2%);
 }
 .guild-header header:hover {
     background-color: rgb(13, 18, 27);
@@ -125,7 +139,7 @@
     color: #ffffff;
 }
 .guilds-wrapper {
-    background: #0c1119;
+    background: linear-gradient(180deg, #101721, #0a0e15 2%);
 }
 .theme-dark .channel-members .avatar-small .status {
     border-color: #151e2d;
@@ -200,7 +214,7 @@
 #rtc-connection .btn {
     background: #101721;
 }
-.header-toolbar .toolbar-badge {
+.header-toolbar .toolbar-badge, .theme-dark .iconBadge-1FYlQB {
     background-color: #00b0f4;
 }
 .mention, .search-popout .search-option .filter, .search-popout .option .filter, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__current-month,
@@ -272,7 +286,7 @@
     text-align: center;
     font-size: 100%;
 }
-.theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected, .theme-dark #friends .tab-bar .tab-bar-item.selected {
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected, .theme-dark #friends .tab-bar .tab-bar-item.selected, .emoji-picker .premium-promo .btn {
     background: linear-gradient(120deg,#1ad6ff 0,#00ff8b 100%);
     color: #36393e !important;
 }
@@ -288,7 +302,7 @@
     background-color: #faa61a;
 }
 .theme-dark .reaction.reaction-me {
-    background: #151e2d;
+    background: linear-gradient(120deg,#24235a 0,#123a7d 100%);
     border-bottom: 2px solid #7289da;
 }
 .theme-dark .reaction {
@@ -388,7 +402,7 @@
     border: 1px solid #264ede;
     color: #7992e8 !important;
 }
-#instant-invite-modal-advanced .form-actions .btn-default, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected {
+.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, .has-value.Select--single>.Select-control .Select-value .Select-value-label, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected {
     color: #ffffff;
 }
 .form .control-group .help-text {
@@ -589,7 +603,7 @@
 #rtc-connection-popout .secured {
     color: #13f7a8;
 }
-.tooltip, .slider-handle span, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected, .theme-dark .bubble-17BwqU {
+.tooltip, .slider-handle span, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected, .theme-dark .bubble-17BwqU, .toast {
     background: linear-gradient(120deg,#35348c 0,#17499e 100%);
 }
 .popout-menu {
@@ -763,7 +777,7 @@
     background-color: #1b2635;
     font-family: inherit;
 }
-.emoji-picker {
+.emoji-picker, .emoji-picker .premium-promo {
     background-color: #0c1119;
     border: 1px solid hsl(217, 35%, 7%);
 }
@@ -864,12 +878,12 @@
 .ui-switch-checkbox:checked+.ui-switch {
     background: #43b581;
 }
-.buttonGreenFilled-6QHNrw, #user-profile-modal .actions .btn.add-friend, .create-guild-container .action.join .btn, .private-channel-recipients-invite .footer button {
+.buttonGreenFilled-6QHNrw, #user-profile-modal .actions .btn.add-friend, .create-guild-container .action.join .btn, .private-channel-recipients-invite .footer button, #user-profile-modal .actions .btn.add-friend, #user-profile-modal .actions .btn.send-message {
     color: #00ff8b;
     background-color: transparent;
     border: 1px solid #00b563;
 }
-.buttonGreenFilledDefault-_lLQaz:hover, #user-profile-modal .actions .btn.add-friend:hover, .create-guild-container .action.join .btn:hover, .switch-3lyafC.checked-7qfgSb, .private-channel-recipients-invite .footer button:hover {
+.buttonGreenFilledDefault-_lLQaz:hover, #user-profile-modal .actions .btn.add-friend:hover, .create-guild-container .action.join .btn:hover, .switch-3lyafC.checked-7qfgSb, .private-channel-recipients-invite .footer button:hover, #user-profile-modal .actions .btn.send-message:hover {
     background-color: #00b563;
     animation: green-glow-bg 2s infinite;
     color: white;
@@ -1165,7 +1179,7 @@
 .primary400-1OkqpL {
     color: #00b0f4;
 }
-.connecting, .theme-dark .layer, .theme-dark .incoming-call-inner {
+.connecting, .theme-dark .layer, .theme-dark .incoming-call-inner, .container-2oOGIt {
     background: #000615;
 }
 .theme-dark .ui-video, .theme-dark .private-channel-call.minimum .private-channel-call-actions .center {
@@ -1215,7 +1229,7 @@
 .guilds-wrapper .guilds .friends-online {
     color: #949494;
 }
-.notice.notice-danger {
+.notice {
     background: linear-gradient(140deg,#3c0f3b 40%,#013a50) !important;
 }
 .name-3gtcmp {
@@ -1224,4 +1238,44 @@
 .mention-RlZ5F3, .mention-RlZ5F3:hover {
     background-color: rgb(250, 166, 26);
     animation: unread 1.5s infinite;
+}
+.bodyDivider-3OPnU2 {
+    background-color: #000c33;
+}
+.theme-dark .activityProfile-2pymp0 .details-vSFjFG, .theme-dark .activityProfile-2pymp0 .name-8onsv0, .theme-dark .activityUserPopout-1nmgaw .details-vSFjFG, .theme-dark .activityUserPopout-1nmgaw .name-8onsv0, .theme-light .activityProfile-2pymp0 .details-vSFjFG, .theme-light .activityProfile-2pymp0 .name-8onsv0, .theme-light .activityUserPopout-1nmgaw .details-vSFjFG, .theme-light .activityUserPopout-1nmgaw .name-8onsv0 {
+    color: #78d9ff;
+}
+.bodyTitleText-hSiL7d, .theme-dark .activityProfile-2pymp0 .content-P9ThHS, .theme-dark .activityProfile-2pymp0 .headerText-2CVBxK, .theme-dark .activityUserPopout-1nmgaw .content-P9ThHS, .theme-dark .activityUserPopout-1nmgaw .headerText-2CVBxK, .theme-light .activityProfile-2pymp0 .content-P9ThHS, .theme-light .activityProfile-2pymp0 .headerText-2CVBxK, .theme-light .activityUserPopout-1nmgaw .content-P9ThHS, .theme-light .activityUserPopout-1nmgaw .headerText-2CVBxK {
+    color: #e4e4e4;
+}
+.title-qAcLxz, .titleCall-3X0yGQ {
+    background: linear-gradient(0deg, transparent,#101721);
+}
+.imageSelected-1LY3bZ {
+    border: 0;
+    animation: speaking 2s infinite;
+    box-shadow: 0 0 0 2px #00b8ff, inset 0 0 0 1.5px #00b8ff;
+}
+.theme-dark .denySelected-h37B9e {
+    background: linear-gradient(120deg,#6b1111 0,#ea2424 100%);
+}
+.theme-dark .allowSelected-1FAg8y, .citar-btn.quoting {
+    background: linear-gradient(120deg,#166912 0,#4be20d 100%);
+}
+.theme-dark .passthroughSelected-3_g4oB {
+    background: linear-gradient(120deg,#414448 0,#848484 100%);
+}
+.theme-dark .wrapper-uAa07y {
+    background: linear-gradient(80deg,#270e31 0,#030e33 100%);
+    border-color: rgb(29, 35, 45);
+}
+.statusOnline-139lnT {
+    background-color: #00ff8b;
+}
+.theme-dark .allowSelected-1FAg8y, .theme-dark .denySelected-h37B9e {
+    border-color: rgb(29, 35, 45);
+}
+.theme-dark .invite-CTGItT {
+    background: linear-gradient(80deg,#0e311e 0,#030e33 100%);
+    border-color: rgb(29, 35, 45);
 }
