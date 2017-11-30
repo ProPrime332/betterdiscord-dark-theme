@@ -1,4 +1,4 @@
-//META{"name":"Dark Blue Theme","description":"Dark, blue theme for BetterDiscord   --   Requires Dark Theme to be enabled in Settings->Appearance   --   Released 2017-11-25","author":"redslime#8503","version":"1.5.1"}*//
+//META{"name":"Dark Blue Theme","description":"Dark, blue theme for BetterDiscord   --   Requires Dark Theme to be enabled in Settings->Appearance   --   Released 2017-11-30","author":"redslime#8503","version":"1.5.2"}*//
 @-webkit-keyframes line {  
   0% { border-color: #00b0f4; }
   33% { border-color: #00ff6f; }
@@ -430,9 +430,6 @@
 }
 #user-profile-modal .guilds .section .section-header {
     color: rgba(231, 239, 255, 0.9);
-}
-.note textarea:focus {
-    background: #2b2e35;
 }
 .guilds-wrapper .guilds-add {
     background: #0c1119;
@@ -878,15 +875,15 @@
 .ui-switch-checkbox:checked+.ui-switch {
     background: #43b581;
 }
-.buttonGreenFilled-6QHNrw, #user-profile-modal .actions .btn.add-friend, .create-guild-container .action.join .btn, .private-channel-recipients-invite .footer button, #user-profile-modal .actions .btn.add-friend, #user-profile-modal .actions .btn.send-message {
-    color: #00ff8b;
+.buttonGreenFilled-6QHNrw, #user-profile-modal .actions .btn.add-friend, .create-guild-container .action.join .btn, .private-channel-recipients-invite .footer button, #user-profile-modal .actions .btn.add-friend, #user-profile-modal .actions .btn.send-message, .actionButton-3SG1Zj {
+    color: #00ff8b !important;
     background-color: transparent;
     border: 1px solid #00b563;
 }
-.buttonGreenFilledDefault-_lLQaz:hover, #user-profile-modal .actions .btn.add-friend:hover, .create-guild-container .action.join .btn:hover, .switch-3lyafC.checked-7qfgSb, .private-channel-recipients-invite .footer button:hover, #user-profile-modal .actions .btn.send-message:hover {
+.buttonGreenFilledDefault-_lLQaz:hover, #user-profile-modal .actions .btn.add-friend:hover, .create-guild-container .action.join .btn:hover, .switch-3lyafC.checked-7qfgSb, .private-channel-recipients-invite .footer button:hover, #user-profile-modal .actions .btn.send-message:hover, .actionButton-3SG1Zj:hover {
     background-color: #00b563;
     animation: green-glow-bg 2s infinite;
-    color: white;
+    color: white !important;
     border: 1px solid #00b563;
 }
 .switchWrapperDefaultActive-2IdHq2:hover .switch-3lyafC.checked-7qfgSb {
@@ -941,7 +938,7 @@
     border-left: 3px solid #00b0f4;
     border-radius: 3px;
 }
-.user-popout .header, .headerNormal-1cioxU, .footer-2J5zqP, .headerStreaming-3F-wjT {
+.user-popout .header, .headerNormal-1cioxU, .footer-2J5zqP, .headerStreaming-3F-wjT, .headerPlaying-2eYqm9, .theme-dark .headerNormal-1cioxU {
     background: #0c1638;
 }
 .user-popout .avatar-wrapper .avatar-popout, .avatarNormal-3luwna, .avatarStreaming-1ZydJV {
@@ -954,7 +951,7 @@
 .user-popout .avatar-wrapper .avatar-hint {
     box-shadow: inset 0 0 120px #0c1638;
 }
-.user-popout .body, .body-3rkFrF {
+.user-popout .body, .body-3rkFrF, .theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP {
     background: #0f1c46;
 }
 .user-popout .footer, .body-3rkFrF {
@@ -966,7 +963,7 @@
     background: #132150;
     color: white;
 }
-.member-roles .member-role {
+.member-roles .member-role, .theme-dark .rolesList-2YHFg5 .member-role {
     background-color: #0c1638;
     border: 1px solid #0f1c46;
     color: #b9c3ce;
@@ -1161,8 +1158,7 @@
     background-image: none;
     padding: 0;
 }
-.user-popout .header.streaming .live-on-twitch, .user-popout .header.streaming .live-on-twitch:hover, .headerLive-2dDMvp {
-    cursor: pointer;
+.user-popout .header.streaming .live-on-twitch, .user-popout .header.streaming .live-on-twitch:hover, .headerLive-2dDMvp, .headerStreaming-3F-wjT .activity-AFBUEw, .topSectionStreaming-3rIBIm .activity-1Sr8Y2 {
     background: linear-gradient(120deg,#2d1856 0,#162861 100%);
 }
 .slider-handle span {
@@ -1278,4 +1274,17 @@
 .theme-dark .invite-CTGItT {
     background: linear-gradient(80deg,#0e311e 0,#030e33 100%);
     border-color: rgb(29, 35, 45);
+}
+.topSectionPlaying-3jAH9b, .topSectionNormal-2LlRG1, .topSectionStreaming-3rIBIm {
+    background: #000615;
+}
+.theme-dark .body-3_tdh6 {
+    background: #0f1625;
+}
+.theme-dark .root-2sNHUF .note-39NEdV textarea:focus, .theme-dark .userPopout-4pfA0d .note textarea:focus {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+.headerPlaying-2eYqm9 .activity-AFBUEw {
+    background: linear-gradient(180deg, #0c1638, #1a2a61, #0f1c46);
+    padding: 10px;
 }
