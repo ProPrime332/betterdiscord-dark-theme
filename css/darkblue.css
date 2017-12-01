@@ -130,7 +130,7 @@
 #user-profile-modal .tab-bar .tab-bar-item {
     color: rgba(255, 255, 255, 0.3);
 }
-#user-profile-modal .guilds .guild, .theme-dark .title-38OOBL, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
+#user-profile-modal .guilds .guild, .theme-dark .title-38OOBL, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected, .invite-modal .invite-title {
     color: #ffffff;
 }
 #user-profile-modal .guilds .guild:hover {
@@ -277,7 +277,7 @@
     background-color: #191e27;
     border-color: #1d232d;
 }
-.bot-tag, .citar-btn, .search-popout .date-picker .date-picker-hint .hint-value, .theme-dark .search-answer, .theme-dark .search-filter, .search-bar-tag {
+.bot-tag, .search-popout .date-picker .date-picker-hint .hint-value, .theme-dark .search-answer, .theme-dark .search-filter, .search-bar-tag {
     background: #394571;
 }
 .theme-dark .channel-members h2 {
@@ -487,7 +487,7 @@
 .user-popout .footer {
     background: #0c1638;
 }
-.protip .label, .inner-ptMwR- .rtc-connection-status-connected, .user-settings-security .is-enabled {
+.protip .label, .inner-ptMwR- .rtc-connection-status-connected, .user-settings-security .is-enabled, .added-3Q7OGu {
     color: #13f7a8;
 }
 .protip {
@@ -714,7 +714,7 @@
 .container-RYiLUQ {
     background-color: #101721;
 }
-.nameDefault-Lnjrwm, .search-popout .results-group .header {
+.nameDefault-Lnjrwm, .search-popout .results-group .header, .invite-modal .invite-body {
     color: #99aab5;
 }
 .colorSelectedText-3YhFC6 {
@@ -874,12 +874,12 @@
 .ui-switch-checkbox:checked+.ui-switch {
     background: #43b581;
 }
-.buttonGreenFilled-6QHNrw, #user-profile-modal .actions .btn.add-friend, .create-guild-container .action.join .btn, .private-channel-recipients-invite .footer button, #user-profile-modal .actions .btn.add-friend, #user-profile-modal .actions .btn.send-message, .actionButton-3SG1Zj {
+.buttonGreenFilled-6QHNrw, #user-profile-modal .actions .btn.add-friend, .create-guild-container .action.join .btn, .private-channel-recipients-invite .footer button, #user-profile-modal .actions .btn.add-friend, #user-profile-modal .actions .btn.send-message, .actionButton-3SG1Zj, .invite-modal .button {
     color: #00ff8b !important;
     background-color: transparent;
     border: 1px solid #00b563;
 }
-.buttonGreenFilledDefault-_lLQaz:hover, #user-profile-modal .actions .btn.add-friend:hover, .create-guild-container .action.join .btn:hover, .switch-3lyafC.checked-7qfgSb, .private-channel-recipients-invite .footer button:hover, #user-profile-modal .actions .btn.send-message:hover, .actionButton-3SG1Zj:hover {
+.buttonGreenFilledDefault-_lLQaz:hover, #user-profile-modal .actions .btn.add-friend:hover, .create-guild-container .action.join .btn:hover, .switch-3lyafC.checked-7qfgSb, .private-channel-recipients-invite .footer button:hover, #user-profile-modal .actions .btn.send-message:hover, .actionButton-3SG1Zj:hover, .invite-modal .button:hover {
     background-color: #00b563;
     animation: green-glow-bg 2s infinite;
     color: white !important;
@@ -936,11 +936,12 @@
     background: linear-gradient(to right,#183567 85%,#101721);
     border-left: 3px solid #00b0f4;
     border-radius: 3px;
+    margin-left: 8px;
 }
 .user-popout .header, .headerNormal-1cioxU, .footer-2J5zqP, .headerStreaming-3F-wjT, .headerPlaying-2eYqm9, .theme-dark .headerNormal-1cioxU {
     background: #0c1638;
 }
-.user-popout .avatar-wrapper .avatar-popout, .avatarNormal-3luwna, .avatarStreaming-1ZydJV {
+.user-popout .avatar-wrapper .avatar-popout, .avatarNormal-3luwna, .avatarStreaming-1ZydJV, .invite-modal .scroller {
     border: 4px solid #0c1638;
     background-color: #0c1638;
 }
@@ -1171,7 +1172,7 @@
     background-color: hsl(218, 22%, 15%);
     border: 1px solid #272d35;
 }
-.primary400-1OkqpL {
+.primary400-1OkqpL, .improved-2HhjlK {
     color: #00b0f4;
 }
 .connecting, .theme-dark .layer, .theme-dark .incoming-call-inner, .container-2oOGIt {
@@ -1286,4 +1287,7 @@
 .headerPlaying-2eYqm9 .activity-AFBUEw {
     background: linear-gradient(180deg, #0c1638, #1a2a61, #0f1c46);
     padding: 10px;
+}
+.contentSelectedVoice-gTtYM9 .content-2mSKOj {
+    padding: 0px;
 }
