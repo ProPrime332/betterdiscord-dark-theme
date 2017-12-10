@@ -337,7 +337,7 @@
 .alert.form .form-inner h4 {
     color: #94a6e4;
 }
-.ui-tab-bar.SIDE .ui-tab-bar-item.selected, .ui-tab-bar.SIDE .ui-tab-bar-item:active {
+.ui-tab-bar.SIDE .ui-tab-bar-item.selected, .ui-tab-bar.SIDE .ui-tab-bar-item:active, .side-2nYO0F .itemSelected-3XxAMf, #bd-settings-sidebar .ui-tab-bar-item.selected {
     background-color: #173467;
     border-left: 3px solid #00b0f4;
 }
@@ -487,7 +487,7 @@
 .user-popout .footer {
     background: #0c1638;
 }
-.protip .label, .inner-ptMwR- .rtc-connection-status-connected, .user-settings-security .is-enabled, .added-3Q7OGu {
+.protip .label, .inner-ptMwR- .rtc-connection-status-connected, .user-settings-security .is-enabled, .added-3Q7OGu, .pro-1IhGKk {
     color: #13f7a8;
 }
 .protip {
@@ -1290,4 +1290,19 @@
 }
 .contentSelectedVoice-gTtYM9 .content-2mSKOj {
     padding: 0px;
+}
+.theme-dark #autocomplete-popout section {
+    background-color: #08102b;
+}
+.theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-header-background {
+    background-color: #060a1b;
+}
+.theme-dark #autocomplete-popout .row.selected {
+    background: linear-gradient(90deg,rgb(15, 29, 74),#0b163a);
+}
+.scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: #060919;
+}
+.scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__header, .theme-light .ui-calendar-picker .react-datepicker__header, .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
+    background-color: transparent;
 }
