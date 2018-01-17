@@ -396,7 +396,7 @@
 #instant-invite-modal-advanced .form-actions {
     background-color: #6275b9;
 }
-.form .btn-primary, .buttonBrandFilled-3Mv0Ra, .upload-modal .footer .button-primary, .wrapper-31dmVW button {
+.form .btn-primary, .buttonBrandFilled-3Mv0Ra, .upload-modal .footer .button-primary, .wrapper-31dmVW button, .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary {
     background-color: transparent !important;
     border: 1px solid #264ede;
     color: #7992e8 !important;
@@ -661,7 +661,7 @@
 .checkbox .checkbox-inner span {
     border: 2px solid #6275b9;
 }
-.form .btn-primary:hover, .buttonBrandFilled-3Mv0Ra:hover, .upload-modal .footer .button-primary:hover, .wrapper-31dmVW button:hover {
+.form .btn-primary:hover, .buttonBrandFilled-3Mv0Ra:hover, .upload-modal .footer .button-primary:hover, .wrapper-31dmVW button:hover, .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary:hover {
     background-color: #264ede !important;
     border: 1px solid #264ede !important;
     animation: blue-glow-bg 2s infinite;
@@ -1029,7 +1029,7 @@
 }
 .theme-dark .modal-3HOjGZ, .notification-settings-modal.deprecated-settings-modal .settings-inner:first-child, .deprecated-settings-modal .settings-actions,
 .radio .radio-inner, .flex-horizontal>.flex-spacer, .theme-dark .container-a2vS7i, .theme-dark .reactors-2PjMP0, .search-popout .search-query, .upload-modal,
-.upload-drop-modal .bgScale {
+.upload-drop-modal .bgScale, .uploadModal-2KN6Mm {
     background-color: #191b1f;
 }
 .header-1tSljs {
@@ -1041,7 +1041,7 @@
 .inner-tqJwAU {
     padding: 20px 12px;
 }
-.theme-dark .footer-1PYmcw, .theme-dark .sidebar-32BRdp, .upload-modal .footer {
+.theme-dark .footer-1PYmcw, .theme-dark .sidebar-32BRdp, .upload-modal .footer, .uploadModal-2KN6Mm .footer-4pOKm8 {
     background-color: rgb(4, 10, 16);
 }
 .notification-settings-modal .notification-settings-modal-channel-settings-list {
@@ -1059,7 +1059,7 @@
 .form.deprecated .Select-control, .scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece, .upload-modal .inner .file .icon.image {
     border: none;
 }
-.scroller-wrap .scroller::-webkit-scrollbar-track-piece, .upload-modal .footer .button, .theme-brand .inner-3if5cm, .theme-dark .tiles-3jKTg9 {
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece, .upload-modal .footer .button, .theme-brand .inner-3if5cm, .theme-dark .tiles-3jKTg9, .uploadModal-2KN6Mm .footer-4pOKm8 .button {
     background-color: transparent;
 }
 .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track,
@@ -1124,7 +1124,7 @@
     border-left: 3px solid #00b0f4;
     border-radius: 4px;
 }
-.upload-modal .inner, .upload-drop-modal .inner {
+.upload-modal .inner, .upload-drop-modal .inner, .uploadModal-2KN6Mm .inner-1-09ZV {
     border: 2px dashed #72767d;
 }
 .upload-drop-modal .inner .title {
@@ -1305,4 +1305,7 @@
 .item-1XYaYf.danger-1oUOCl:hover {
     background: linear-gradient(90deg, transparent, rgba(137, 30, 37, 0.42)) !important;
     color: #ff5b5b!important;
+}
+.uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .icon-19bbE_.image-sUU6Oh {
+    border: 2px solid rgb(29, 36, 46);
 }
