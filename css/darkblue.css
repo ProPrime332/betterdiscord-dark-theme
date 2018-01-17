@@ -1059,7 +1059,8 @@
 .form.deprecated .Select-control, .scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece, .upload-modal .inner .file .icon.image {
     border: none;
 }
-.scroller-wrap .scroller::-webkit-scrollbar-track-piece, .upload-modal .footer .button, .theme-brand .inner-3if5cm, .theme-dark .tiles-3jKTg9, .uploadModal-2KN6Mm .footer-4pOKm8 .button {
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece, .upload-modal .footer .button, .theme-brand .inner-3if5cm, .theme-dark .tiles-3jKTg9, .uploadModal-2KN6Mm .footer-4pOKm8 .button,
+.inviteModal-1di4Hk .avatar-xxxlarge{
     background-color: transparent;
 }
 .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track,
@@ -1308,4 +1309,14 @@
 }
 .uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .icon-19bbE_.image-sUU6Oh {
     border: 2px solid rgb(29, 36, 46);
+}
+.inviteModal-1di4Hk .scroller {
+    background: linear-gradient(30deg, #171212, #041133, #152a61);
+    background-size: auto;
+}
+.inviteModal-1di4Hk .inviteTitle-2yNtkC {
+    color: aliceblue;
+}
+.inviteModal-1di4Hk .inviteBody-1kVhyx {
+    color: #b9bbbe;
 }
