@@ -1337,7 +1337,10 @@
     background: #101319;
 }
 .guilds-wrapper .guilds .friends-icon {
-    background: #1d232d url(https://discordapp.com/assets/89576a4bb71f927eb20e8aef987b499b.svg);
+    background: #1d232d url(http://discordapp.com/assets/89576a4bb71f927eb20e8aef987b499b.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 32px 28px;
 }
 .theme-dark .user-settings-games .now-playing, .theme-light .user-settings-games .now-playing {
     background: linear-gradient(60deg, #0e646b, #17bd71, #067338);
