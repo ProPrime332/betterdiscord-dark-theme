@@ -1320,3 +1320,29 @@
 .inviteModal-1di4Hk .inviteBody-1kVhyx {
     color: #b9bbbe;
 }
+.item-rK1j5B:hover {
+    color: #aabcc7;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary, .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover {
+    background-color: #3c4b67;
+}
+.theme-dark .card-11ynQk:before {
+    background: linear-gradient(90deg, #1d232d 80%, #2e333d);
+    border-color: #4c5361;
+}
+.theme-dark .searchBar-YMJBu9 {
+    background-color: #14181f;
+}
+.theme-dark .popoutList-2NT_IY {
+    background: #101319;
+}
+.guilds-wrapper .guilds .friends-icon {
+    background: #1d232d url(/assets/89576a4bb71f927eb20e8aef987b499b.svg);
+}
+.theme-dark .user-settings-games .now-playing, .theme-light .user-settings-games .now-playing {
+    background: linear-gradient(60deg, #0e646b, #17bd71, #067338);
+}
+.ghostPill-1yup5q {
+    background-color: rgba(26, 209, 250, 0.1);
+    color: #00b8ff;
+}
