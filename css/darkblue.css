@@ -397,7 +397,7 @@
 #instant-invite-modal-advanced .form-actions {
     background-color: #6275b9;
 }
-.form .btn-primary, .buttonBrandFilled-3Mv0Ra, .upload-modal .footer .button-primary, .wrapper-31dmVW button, .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn {
+.form .btn-primary, .buttonBrandFilled-3Mv0Ra, .upload-modal .footer .button-primary, .wrapper-31dmVW button, .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn .btn-primary {
     background-color: transparent !important;
     border: 1px solid #264ede;
     color: #7992e8 !important;
@@ -1380,7 +1380,7 @@
     background: transparent;
 }
 .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {
-    padding-top: auto;
+    padding-top: 18px;
 }
 .form-deprecated .btn-default, .form.deprecated .btn-default, .form-deprecated .btn-default:hover, .form.deprecated .btn-default:hover {
     border-bottom: 2px solid #560c0c;
@@ -1397,7 +1397,7 @@
 .is-open>.Select-control {
     background: #2a2d31;
 }
-.form-deprecated .Select-option.is-focused, .form.deprecated .Select-option.is-focused, .Select-option {
+.form-deprecated .Select-option.is-focused, .form.deprecated .Select-option.is-focused, .Select-option, .form-deprecated .Select-option, .form.deprecated .Select-option {
     background: #2a2d31;
     color: #f6f6f7;
 }
@@ -1413,4 +1413,7 @@
 .Select-option.is-selected, .Select-option:hover {
     background: linear-gradient(90deg, #2a2d31 80%, #5a5d61);
     color: #333;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_, .form-deprecated .is-focused:not(.is-open)>.Select-control, .form.deprecated .is-focused:not(.is-open)>.Select-control {
+    background-color: #105f5f;
 }
