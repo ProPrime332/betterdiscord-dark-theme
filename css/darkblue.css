@@ -130,7 +130,8 @@
 #user-profile-modal .tab-bar .tab-bar-item {
     color: rgba(255, 255, 255, 0.3);
 }
-#user-profile-modal .guilds .guild, .theme-dark .title-38OOBL, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected, .invite-modal .invite-title {
+#user-profile-modal .guilds .guild, .theme-dark .title-38OOBL, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected, .invite-modal .invite-title,
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-header header{
     color: #ffffff;
 }
 #user-profile-modal .guilds .guild:hover {
@@ -396,7 +397,7 @@
 #instant-invite-modal-advanced .form-actions {
     background-color: #6275b9;
 }
-.form .btn-primary, .buttonBrandFilled-3Mv0Ra, .upload-modal .footer .button-primary, .wrapper-31dmVW button, .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary {
+.form .btn-primary, .buttonBrandFilled-3Mv0Ra, .upload-modal .footer .button-primary, .wrapper-31dmVW button, .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn {
     background-color: transparent !important;
     border: 1px solid #264ede;
     color: #7992e8 !important;
@@ -404,7 +405,7 @@
 .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, .has-value.Select--single>.Select-control .Select-value .Select-value-label, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected {
     color: #ffffff;
 }
-.form .control-group .help-text {
+.form .control-group .help-text, .wrapper-VSYYTS .instantInviteModal-5L33Qh .blurb-ArHxCz {
     color: #e6e6e6;
 }
 .form .control-group label {
@@ -414,7 +415,7 @@
     border-bottom: 2px solid #264ede;
 }
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
-    background-color: #43b581;
+    background: linear-gradient(120deg,#1ad6ff 0,#00ff8b 100%);
     border-color: #43b581;
 }
 .theme-dark .themed-popout .footer {
@@ -661,7 +662,8 @@
 .checkbox .checkbox-inner span {
     border: 2px solid #6275b9;
 }
-.form .btn-primary:hover, .buttonBrandFilled-3Mv0Ra:hover, .upload-modal .footer .button-primary:hover, .wrapper-31dmVW button:hover, .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary:hover {
+.form .btn-primary:hover, .buttonBrandFilled-3Mv0Ra:hover, .upload-modal .footer .button-primary:hover, .wrapper-31dmVW button:hover, .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary:hover,
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn:hover {
     background-color: #264ede !important;
     border: 1px solid #264ede !important;
     animation: blue-glow-bg 2s infinite;
@@ -1348,4 +1350,67 @@
 .ghostPill-1yup5q {
     background-color: rgba(26, 209, 250, 0.1);
     color: #00b8ff;
+}
+.form-deprecated .form-header, .form.deprecated .form-header, .form-deprecated .form-inner, .form.deprecated .form-inner {
+    background: #070f1b;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {
+    background-color: #040810;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner span, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner span {
+    border: 2px solid #676767;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner input:checked+span, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner input:checked+span {
+    border-color: transparent;
+}
+.clipboardInputInner-oj8y-S {
+    border: 1px solid #070f1b;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .clipboardInputInner-dxVheg input {
+    color: #8fe0ff;
+    background: linear-gradient(120deg, #244069, #0e615e);
+}
+.clipboardInputInner-oj8y-S button:first-of-type:before {
+    background: transparent;
+}
+.clipboardInputInner-oj8y-S button {
+    border-left: 3px solid #070f1b;
+}
+.wrapper-VSYYTS {
+    background: transparent;
+}
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {
+    padding-top: auto;
+}
+.form-deprecated .btn-default, .form.deprecated .btn-default, .form-deprecated .btn-default:hover, .form.deprecated .btn-default:hover {
+    border-bottom: 2px solid #560c0c;
+}
+.form-deprecated .control-group label, .form.deprecated .control-group label {
+    color: #338afd;
+}
+.form-deprecated .Select-control, .form.deprecated .Select-control {
+    border: 1px solid #070f1b;
+}
+.form-deprecated .Select-control:hover, .form.deprecated .Select-control:hover {
+    border: 1px solid #1c395e;
+}
+.is-open>.Select-control {
+    background: #2a2d31;
+}
+.form-deprecated .Select-option.is-focused, .form.deprecated .Select-option.is-focused, .Select-option {
+    background: #2a2d31;
+    color: #f6f6f7;
+}
+.Select-menu-outer {
+    border-color: #1d1f22 #1d1f22 #1d1f22;
+}
+.spinner-wandering-cubes .spinner-item {
+    background-color: #00b0f4;
+}
+.form-deprecated .Select-control:hover, .form.deprecated .Select-control:hover,, .form.deprecated .Select-control:focus {
+    border-color: #1c494e;
+}
+.Select-option.is-selected, .Select-option:hover {
+    background: linear-gradient(90deg, #2a2d31 80%, #5a5d61);
+    color: #333;
 }
