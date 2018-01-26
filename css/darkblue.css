@@ -397,7 +397,8 @@
 #instant-invite-modal-advanced .form-actions {
     background-color: #6275b9;
 }
-.form .btn-primary, .buttonBrandFilled-3Mv0Ra, .upload-modal .footer .button-primary, .wrapper-31dmVW button, .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn .btn-primary {
+.form .btn-primary, .buttonBrandFilled-3Mv0Ra, .upload-modal .footer .button-primary, .wrapper-31dmVW button, .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn .btn-primary,
+.form-deprecated .btn-primary, .form.deprecated .btn-primary {
     background-color: transparent !important;
     border: 1px solid #264ede;
     color: #7992e8 !important;
@@ -663,7 +664,7 @@
     border: 2px solid #6275b9;
 }
 .form .btn-primary:hover, .buttonBrandFilled-3Mv0Ra:hover, .upload-modal .footer .button-primary:hover, .wrapper-31dmVW button:hover, .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary:hover,
-.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn:hover {
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn .btn-hover:hover, .form-deprecated .btn-primary:hover, .form.deprecated .btn-primary:hover {
     background-color: #264ede !important;
     border: 1px solid #264ede !important;
     animation: blue-glow-bg 2s infinite;
@@ -1407,13 +1408,15 @@
 .spinner-wandering-cubes .spinner-item {
     background-color: #00b0f4;
 }
-.form-deprecated .Select-control:hover, .form.deprecated .Select-control:hover,, .form.deprecated .Select-control:focus {
+.form-deprecated .Select-control:hover, .form.deprecated .Select-control:hover, .form.deprecated .Select-control:focus, .form-deprecated .is-focused:not(.is-open)>.Select-control,
+.form-deprecated .Select.is-disabled .Select-control:hover, .form-deprecated .Select.is-open .Select-control:hover, .form.deprecated .Select.is-disabled .Select-control:hover,
+.form.deprecated .Select.is-open .Select-control:hover {
     border-color: #1c494e;
 }
-.Select-option.is-selected, .Select-option:hover {
+.Select-option:hover {
     background: linear-gradient(90deg, #2a2d31 80%, #5a5d61);
-    color: #333;
+    color: #fff;
 }
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_, .form-deprecated .is-focused:not(.is-open)>.Select-control, .form.deprecated .is-focused:not(.is-open)>.Select-control {
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_ {
     background-color: #105f5f;
 }
