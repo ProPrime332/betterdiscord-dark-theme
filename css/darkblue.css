@@ -941,7 +941,7 @@
 .user-popout .avatar-wrapper .avatar-hint {
     box-shadow: inset 0 0 120px #0c1638;
 }
-.user-popout .body, .body-3rkFrF, .theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP {
+.user-popout .body, .body-3rkFrF, .theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP, .headerSpotify-1fSJPO {
     background: #0f1c46;
 }
 .user-popout .footer, .body-3rkFrF {
@@ -1419,4 +1419,7 @@
 }
 .wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_ {
     background-color: #105f5f;
+}
+.activity-AFBUEw {
+    background: linear-gradient(180deg, transparent, #143e14, transparent);
 }
