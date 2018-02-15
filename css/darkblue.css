@@ -1429,3 +1429,12 @@
 .noticePremium-2x9Tv2 {
     background: linear-gradient(150deg, #062731, #290d46);
 }
+.theme-dark .listeningAlong-13-Udx {
+    background: linear-gradient(0deg, #0c1119 65%, #0c190d);
+}
+.theme-dark .attachPopout-gjwHsr {
+    background-color: #0c1119;
+}
+.theme-dark .attachPopoutRow-elxASe:hover {
+    background: linear-gradient(90deg, #101621 80%, #192942);
+}
