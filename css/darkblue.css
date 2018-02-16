@@ -398,10 +398,18 @@
     background-color: #6275b9;
 }
 .form .btn-primary, .buttonBrandFilled-3Mv0Ra, .upload-modal .footer .button-primary, .wrapper-31dmVW button, .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn .btn-primary,
-.form-deprecated .btn-primary, .form.deprecated .btn-primary {
+.form-deprecated .btn-primary, .form.deprecated .btn-primary, .lookFilled-luDKDo.colorBrand-3PmwCE {
     background-color: transparent !important;
     border: 1px solid #264ede;
     color: #7992e8 !important;
+}
+.form .btn-primary:hover, .buttonBrandFilled-3Mv0Ra:hover, .upload-modal .footer .button-primary:hover, .wrapper-31dmVW button:hover, .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary:hover,
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn .btn-hover:hover, .form-deprecated .btn-primary:hover, .form.deprecated .btn-primary:hover,
+.lookFilled-luDKDo.colorBrand-3PmwCE:hover{
+    background-color: #264ede !important;
+    border: 1px solid #264ede !important;
+    animation: blue-glow-bg 2s infinite;
+    color: white !important;
 }
 .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, .has-value.Select--single>.Select-control .Select-value .Select-value-label, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected {
     color: #ffffff;
@@ -663,13 +671,6 @@
 .checkbox .checkbox-inner span {
     border: 2px solid #6275b9;
 }
-.form .btn-primary:hover, .buttonBrandFilled-3Mv0Ra:hover, .upload-modal .footer .button-primary:hover, .wrapper-31dmVW button:hover, .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary:hover,
-.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn .btn-hover:hover, .form-deprecated .btn-primary:hover, .form.deprecated .btn-primary:hover {
-    background-color: #264ede !important;
-    border: 1px solid #264ede !important;
-    animation: blue-glow-bg 2s infinite;
-    color: white !important;
-}
 #instant-invite-modal-advanced .form-actions {
     padding-top: 20px;
     background-color: #040a10;
@@ -928,7 +929,7 @@
     border-radius: 3px;
     margin-left: 8px;
 }
-.user-popout .header, .headerNormal-1cioxU, .footer-2J5zqP, .headerStreaming-3F-wjT, .headerPlaying-2eYqm9, .theme-dark .headerNormal-1cioxU {
+.user-popout .header, .headerNormal-1cioxU, .footer-2J5zqP, .headerStreaming-3F-wjT, .headerPlaying-2eYqm9, .theme-dark .headerNormal-1cioxU, .headerTop-27AvhA {
     background: #0c1638;
 }
 .user-popout .avatar-wrapper .avatar-popout, .avatarNormal-3luwna, .avatarStreaming-1ZydJV, .invite-modal .scroller {
@@ -941,7 +942,7 @@
 .user-popout .avatar-wrapper .avatar-hint {
     box-shadow: inset 0 0 120px #0c1638;
 }
-.user-popout .body, .body-3rkFrF, .theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP, .headerSpotify-1fSJPO {
+.user-popout .body, .body-3rkFrF, .theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP, .headerSpotify-1fSJPO, .theme-dark .body-3ljq11, .theme-dark .footer-2wFs91 {
     background: #0f1c46;
 }
 .user-popout .footer, .body-3rkFrF {
@@ -1272,7 +1273,7 @@
 .theme-dark .root-2sNHUF .note-39NEdV textarea:focus, .theme-dark .userPopout-4pfA0d .note textarea:focus {
     background-color: rgba(255, 255, 255, 0.03);
 }
-.headerPlaying-2eYqm9 .activity-AFBUEw {
+.headerPlaying-2eYqm9 .activity-AFBUEw, .activity-3NviKQ {
     background: linear-gradient(180deg, #0c1638, #1a2a61, #0f1c46);
     padding: 10px;
 }
@@ -1420,7 +1421,8 @@
 .wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_ {
     background-color: #105f5f;
 }
-.activity-AFBUEw {
+.headerSpotify-26yUf5 .activity-3NviKQ {
+    background-color: #0f1c46 !important;
     background: linear-gradient(180deg, transparent, #143e14, transparent);
 }
 .noticeInfo-3v29SJ {
