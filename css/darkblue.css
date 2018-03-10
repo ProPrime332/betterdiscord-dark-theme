@@ -865,13 +865,13 @@
 .ui-switch-checkbox:checked+.ui-switch {
     background: #43b581;
 }
-.buttonGreenFilled-6QHNrw, #user-profile-modal .actions .btn.add-friend, .create-guild-container .action.join .btn, .private-channel-recipients-invite .footer button, #user-profile-modal .actions .btn.add-friend, #user-profile-modal .actions .btn.send-message, .actionButton-3SG1Zj, .invite-modal .button {
+.buttonGreenFilled-6QHNrw, #user-profile-modal .actions .btn.add-friend, .create-guild-container .action.join .btn, .private-channel-recipients-invite .footer button, #user-profile-modal .actions .btn.add-friend, #user-profile-modal .actions .btn.send-message, .actionButton-3SG1Zj, .invite-modal .button, .lookInverted-2lPGe7.colorGreen-22At8E, .lookFilled-luDKDo.colorGreen-22At8E {
     color: #00ff8b !important;
     background-color: transparent;
     border: 1px solid #00b563;
 }
 .buttonGreenFilledDefault-_lLQaz:hover, #user-profile-modal .actions .btn.add-friend:hover, .create-guild-container .action.join .btn:hover, .switch-3lyafC.checked-7qfgSb, .private-channel-recipients-invite .footer button:hover, #user-profile-modal .actions .btn.send-message:hover, .actionButton-3SG1Zj:hover, .invite-modal .button:hover {
-    background-color: #00b563;
+    background-color: #00b563 !important;
     animation: green-glow-bg 2s infinite;
     color: white !important;
     border: 1px solid #00b563;
