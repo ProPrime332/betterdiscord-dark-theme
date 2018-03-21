@@ -949,7 +949,7 @@
     border-top: 1px solid #0c1638;
     border-bottom: 1px solid #0c1638;
 }
-.quick-message {
+.quick-message, .theme-dark .quickMessage-OCo-Q0 {
     border: 1px solid #132150;
     background: #132150;
     color: white;
@@ -1264,7 +1264,7 @@
     background: linear-gradient(80deg,#0e311e 0,#030e33 100%);
     border-color: rgb(29, 35, 45);
 }
-.topSectionPlaying-3jAH9b, .topSectionNormal-2LlRG1, .topSectionStreaming-3rIBIm, .topSectionSpotify-3744IX {
+.topSectionPlaying-3jAH9b, .topSectionNormal-2LlRG1, .topSectionStreaming-3rIBIm, .topSectionSpotify-3744IX, .theme-dark .topSectionNormal-2LlRG1 {
     background: #000615;
 }
 .theme-dark .body-3_tdh6 {
