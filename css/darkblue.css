@@ -98,11 +98,11 @@
     border-radius: 3px;
     -webkit-animation: line 5s ease-in-out infinite;
 }
-.guild-channels .channel-text:hover {
-    background: linear-gradient(to right,#183567 85%,#101721);
+.guild-channels .channel-text:hover, .theme-dark .member-2FrNV0:hover .content-3JzEqq {
+    background: linear-gradient(to right,#183567 85%,#151e2d);
 }
-.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
-    background: linear-gradient(to right,#18305a 85%,#151e2d);
+.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover, .theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq {
+    background: linear-gradient(to right,#18305a 85%,#151e2d)
 }
 .account, .theme-dark .private-channel-recipients-invite .friend {
     background: #0c1119;
