@@ -77,7 +77,7 @@
 .guild-header header, .theme-dark .title-qAcLxz {
     background-color: #101721;
     border-bottom: 1px solid #00b0f4;
-    -webkit-animation: line 5s ease-in-out infinite;
+    -webkit-animation: line 30s ease-in-out infinite;
     height: 47px;
 }
 .appMount-14L89u {
@@ -96,7 +96,7 @@
     background: linear-gradient(to right,#102344 85%,#101721);
     border-left: 3px solid #00b0f4;
     border-radius: 3px;
-    -webkit-animation: line 5s ease-in-out infinite;
+    -webkit-animation: line 30s ease-in-out infinite;
 }
 .guild-channels .channel-text:hover, .theme-dark .member-2FrNV0:hover .content-3JzEqq {
     background: linear-gradient(to right,#183567 85%,#151e2d);
@@ -635,7 +635,7 @@
     background-color: #101721;
 }
 .theme-dark #friends .friends-header, .theme-dark .chat .title-wrap, .guild-header header, .private-channels .scroller, .header-1tSljs {
-    -webkit-animation: line 5s ease-in-out infinite;
+    -webkit-animation: line 30s ease-in-out infinite;
 }
 .quickswitcher.dark, .theme-dark .quickswitcher-2NdiGJ {
     background-color: rgba(6, 27, 51, 0.76);
