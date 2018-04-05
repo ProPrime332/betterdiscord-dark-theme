@@ -344,16 +344,18 @@
 .theme-dark .ui-tab-bar-item:hover {
     background-color: hsl(218, 37%, 23%);
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group {
+.theme-dark .messages-popout-wrap .messages-popout .message-group, .theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
     background-color: #1d232d;
 }
-.theme-dark .themed-popout .header {
+.theme-dark .themed-popout .header, .theme-dark .popout .messages-popout-wrap .header {
     background-color: #0f151f;
 }
-.theme-dark .themed-popout, .search-popout, .theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker {
+.theme-dark .themed-popout, .search-popout, .theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker,
+.theme-dark .popout .messages-popout-wrap {
     background-color: #0c1119;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons,
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
     box-shadow: 0 0 6px 4px #1d232d;
     background-color: #1d232d;
 }
@@ -426,7 +428,7 @@
     background: linear-gradient(120deg,#1ad6ff 0,#00ff8b 100%);
     border-color: #43b581;
 }
-.theme-dark .themed-popout .footer {
+.theme-dark .themed-popout .footer, .theme-dark .popout .messages-popout-wrap .footer {
     background-color: rgb(15, 21, 31);
 }
 #user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
