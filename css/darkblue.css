@@ -86,7 +86,7 @@
 .guild-header header:hover {
     background-color: rgb(13, 18, 27);
 }
-.theme-dark .channel-members, .theme-dark .channel-members-loading .heading, .theme-dark .channel-members-loading .member {
+.theme-dark .channel-members, .theme-dark .channel-members-loading .heading, .theme-dark .channel-members-loading .member, .theme-dark .members-1bid1J {
     background-color: #151e2d;
 }
 .guild-channels, .theme-dark .headerBar-cxbhPD {
@@ -281,10 +281,9 @@
 .bot-tag, .search-popout .date-picker .date-picker-hint .hint-value, .theme-dark .search-answer, .theme-dark .search-filter, .search-bar-tag, .botTagRegular-288-ZL {
     background: #394571;
 }
-.theme-dark .channel-members h2 {
+.theme-dark .channel-members h2, .theme-dark .membersGroup-3_dP5E {
     color: #99aab5;
     text-align: center;
-    font-size: 100%;
 }
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected, .theme-dark #friends .tab-bar .tab-bar-item.selected, .emoji-picker .premium-promo .btn {
     background: linear-gradient(120deg,#1ad6ff 0,#00ff8b 100%);
