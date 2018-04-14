@@ -218,7 +218,8 @@
     background-color: #00b0f4;
 }
 .mention, .search-popout .search-option .filter, .search-popout .option .filter, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__current-month,
-.theme-light .ui-calendar-picker .react-datepicker__current-month, .chat>.title-wrap>.title .channel-name .channel-icon, .channelIcon-1KtcMW {
+.theme-light .ui-calendar-picker .react-datepicker__current-month, .chat>.title-wrap>.title .channel-name .channel-icon, .channelIcon-1KtcMW,
+.theme-dark .searchOption-vKNX73 .filter-3kZ3tT {
     color: #00b0f4;
 }
 .theme-dark .message-group .comment .markup .mention:hover {
@@ -278,7 +279,8 @@
     background-color: #191e27;
     border-color: #1d232d;
 }
-.bot-tag, .search-popout .date-picker .date-picker-hint .hint-value, .theme-dark .search-answer, .theme-dark .search-filter, .search-bar-tag, .botTagRegular-288-ZL {
+.bot-tag, .search-popout .date-picker .date-picker-hint .hint-value, .theme-dark .search-answer, .theme-dark .search-filter, .search-bar-tag, .botTagRegular-288-ZL,
+.theme-dark .searchAnswer-yD90ey, .theme-dark .searchFilter-1fJ0cd {
     background: #394571;
 }
 .theme-dark .channel-members h2, .theme-dark .membersGroup-3_dP5E {
@@ -351,7 +353,7 @@
     background-color: #0f151f;
 }
 .theme-dark .themed-popout, .search-popout, .theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker,
-.theme-dark .popout .messages-popout-wrap {
+.theme-dark .popout .messages-popout-wrap, .theme-dark .searchPopout-38pRYh {
     background-color: #0c1119;
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons,
@@ -1034,7 +1036,7 @@
 }
 .theme-dark .modal-3HOjGZ, .notification-settings-modal.deprecated-settings-modal .settings-inner:first-child, .deprecated-settings-modal .settings-actions,
 .radio .radio-inner, .flex-horizontal>.flex-spacer, .theme-dark .container-a2vS7i, .theme-dark .reactors-2PjMP0, .search-popout .search-query, .upload-modal,
-.upload-drop-modal .bgScale, .uploadModal-2KN6Mm {
+.upload-drop-modal .bgScale, .uploadModal-2KN6Mm, .theme-dark .searchQuery-3o17HL.selected-_bTXUG {
     background-color: #191b1f;
 }
 .header-1tSljs {
@@ -1090,10 +1092,10 @@
 .search-popout .option:after {
     background: none;
 }
-.search-popout .option.selected {
+.search-popout .option.selected, .theme-dark .option-1MvVr1.selected-_bTXUG {
     background-color: #161f2d;
 }
-.search-popout .option.selected:after {
+.search-popout .option.selected:after, .theme-dark .option-1MvVr1.selected-_bTXUG:after {
     width: 60px;
     background: linear-gradient(90deg,#161f2d 0,#0b1017 100%);
 }
