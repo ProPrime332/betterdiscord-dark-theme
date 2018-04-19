@@ -349,15 +349,16 @@
 .theme-dark .messages-popout-wrap .messages-popout .message-group, .theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
     background-color: #1d232d;
 }
-.theme-dark .themed-popout .header, .theme-dark .popout .messages-popout-wrap .header {
+.theme-dark .themed-popout .header, .theme-dark .popout .messages-popout-wrap .header, .theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
     background-color: #0f151f;
 }
 .theme-dark .themed-popout, .search-popout, .theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker,
-.theme-dark .popout .messages-popout-wrap, .theme-dark .searchPopout-38pRYh {
+.theme-dark .popout .messages-popout-wrap, .theme-dark .searchPopout-38pRYh, .theme-dark .messagesPopoutWrap-1VBR-j {
     background-color: #0c1119;
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons,
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons, .theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group,
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2 {
     box-shadow: 0 0 6px 4px #1d232d;
     background-color: #1d232d;
 }
