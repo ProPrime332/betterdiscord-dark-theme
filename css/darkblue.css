@@ -1505,6 +1505,7 @@ Trying to get things a bit more organized from here on.
     --emoji-picker-brighter: rgb(19, 27, 39);
     --select-option-hover-gradient: linear-gradient(90deg, transparent, rgba(62, 80, 107, 0.33));
     --tab-active-gradient: linear-gradient(90deg, var(--active-bg), transparent);
+    --mention: #faa61a;
 }
 
 /**
@@ -1617,11 +1618,11 @@ Message list
 }
 
 .theme-dark .autocomplete-1vrmpx {
-    background-color: var(--modal-body);
+    background-color: var(--autocomplete-gradient);
 }
 
 .theme-dark .selectorSelected-1_M1WV {
-    background: var(--autocomplete-gradient);
+    background: var(--select-option-hover-gradient);
     border-left: 3px solid var(--primary-blue);
 }
 
@@ -1801,6 +1802,20 @@ Status colors
 }
 
 /**
+Mentions
+ */
+.unread-mentions-indicator-bottom .unread-mentions-bar, .unread-mentions-indicator-top .unread-mentions-bar,
+.unread-mentions-indicator-bottom .unread-mentions-bar:hover, .unread-mentions-indicator-top .unread-mentions-bar:hover,
+.wrapper-232cHJ {
+    background-color: var(--mention);
+}
+
+.unread-mentions-indicator-bottom .unread-mentions-bar, .unread-mentions-indicator-top .unread-mentions-bar,
+.unread-mentions-indicator-bottom .unread-mentions-bar:hover, .unread-mentions-indicator-top .unread-mentions-bar:hover {
+    animation: unread 1.5s infinite;
+}
+
+/**
 Util
  */
 .name-3YKhmS, .theme-dark .membersGroup-v9BXpm {
@@ -1830,4 +1845,12 @@ Util
 
 .theme-dark .typing-2GQL18 {
     background: var(--message-list);
+}
+
+.theme-dark .menu-Sp6bN1 {
+    background: var(--modal-header);
+}
+
+.theme-dark .item-1GzJrl:hover {
+    background: var(--select-option-hover-gradient);
 }
