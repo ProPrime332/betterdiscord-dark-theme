@@ -1618,7 +1618,7 @@ Message list
 }
 
 .theme-dark .autocomplete-1vrmpx {
-    background-color: var(--autocomplete-gradient);
+    background: var(--autocomplete-gradient);
 }
 
 .theme-dark .selectorSelected-1_M1WV {
