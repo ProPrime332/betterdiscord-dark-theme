@@ -1486,6 +1486,7 @@ Trying to get things a bit more organized from here on.
     --bot: #394571;
     --primary-green: #13f7a8;
     --context-menu-gradient: linear-gradient(-40deg, #081b38 60%, #072256);
+    --autocomplete-gradient: linear-gradient(-40deg, #010c1d 60%, #06142f);
     --unread: #5494f1;
     --modal-header: #010a17;
     --modal-footer: var(--modal-header);
@@ -1613,6 +1614,15 @@ Message list
 .theme-dark .inner-zqa7da {
     background-color: var(--message-list);
     filter: brightness(120%);
+}
+
+.theme-dark .autocomplete-1vrmpx {
+    background-color: var(--modal-body);
+}
+
+.theme-dark .selectorSelected-1_M1WV {
+    background: var(--autocomplete-gradient);
+    border-left: 3px solid var(--primary-blue);
 }
 
 /**
