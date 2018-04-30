@@ -615,7 +615,7 @@
 #rtc-connection-popout .secured {
     color: #13f7a8;
 }
-.tooltip, .slider-handle span, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected, .theme-dark .bubble-17BwqU, .toast {
+.tooltip, .slider-handle span, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected, .theme-dark .bubble-17BwqU, .toast, .theme-dark .bubble-3we2di {
     background: linear-gradient(120deg,#35348c 0,#17499e 100%);
 }
 .popout-menu, .menu-3BZuDT, .theme-dark .menu-3BZuDT {
@@ -682,7 +682,7 @@
     background-color: #040a10;
 }
 .small-popout-box {
-    background: #101721;
+    background: var(--modal-header);
     border: 1px solid #101721;
 }
 .option-popout .btn-item:hover {
@@ -1211,7 +1211,7 @@
 .theme-dark .bar-2cFRGz {
     background: #2e3542;
 }
-.barFill-18ABna {
+.barFill-18ABna, .barFill-23-gu- {
     background: linear-gradient(90deg, #00b0f4, #43b581);
 }
 .lockedStatus-vwSFhx {
@@ -1528,7 +1528,7 @@ Header bars
 /**
 Modals
  */
-.theme-dark .messagesPopoutWrap-1MQ1bW .header-ykumBX, .theme-dark .sidebar-1-SQro {
+.theme-dark .messagesPopoutWrap-1MQ1bW .header-ykumBX, .theme-dark .sidebar-1-SQro, .theme-dark .attachPopout-1n-ZKM {
     background-color: var(--modal-header);
 }
 
@@ -1706,7 +1706,7 @@ Buttons
 }
 
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
-    border: 1px solid var(--button-blue);
+    border: 1px solid transparent;
     background: var(--button-blue);
     color: white;
     animation: blue-glow-bg 2s infinite;
@@ -1720,21 +1720,21 @@ Buttons
 }
 
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookInverted-2D7oAl.colorBrand-3pXr91:hover, .buttonInvertedPurple-WtBglX:hover, .lookInverted-2D7oAl.colorGreen-29iAKY:hover {
-    border: 1px solid var(--button-green-hover);
+    border: 1px solid transparent;
     background: var(--button-green-hover);
     color: white;
     animation: green-glow-bg 2s infinite;
 }
 
 /** RED / DANGER **/
-.lookOutlined-3sRXeN.colorRed-1TFJan {
+.lookOutlined-3sRXeN.colorRed-1TFJan, .lookFilled-1Gx00P.colorRed-1TFJan {
     border: 1px solid var(--button-red);
     background: transparent;
     color: var(--button-red);
 }
 
-.lookOutlined-3sRXeN.colorRed-1TFJan:hover {
-    border: 1px solid var(--button-red);
+.lookOutlined-3sRXeN.colorRed-1TFJan:hover, .lookFilled-1Gx00P.colorRed-1TFJan:hover {
+    border: 1px solid transparent;
     background: var(--button-red);
     color: white;
     animation: red-glow-bg 2s infinite;
@@ -1852,7 +1852,7 @@ Util
     background: var(--modal-header);
 }
 
-.theme-dark .item-1GzJrl:hover, .theme-dark .resultFocused-3aIoYe {
+.theme-dark .item-1GzJrl:hover, .theme-dark .resultFocused-3aIoYe, .attachPopoutRow-KrE-f6:hover {
     background: var(--select-option-hover-gradient);
 }
 
