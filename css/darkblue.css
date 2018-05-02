@@ -1115,15 +1115,6 @@
 .theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb {
     border: 3px solid #0c1119!important;
 }
-.theme-dark .channel-textarea-autocomplete-inner header, .selector-2IcQBU {
-    border-bottom-color: #040a10;
-    background-color: #040a10;
-    color: #ffffff;
-}
-.theme-dark .channel-textarea-autocomplete-inner, .theme-dark .autocomplete-1vrmpx, .selectable-3dP3y- {
-    background-color: #0c1119;
-    border-color: #040a10;
-}
 .theme-dark .channel-textarea-autocomplete-inner ul li.active, .theme-dark .selectorSelected-1_M1WV {
     background: #16202f;
     border-left: 3px solid #00b0f4;
