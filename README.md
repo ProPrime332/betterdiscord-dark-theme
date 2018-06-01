@@ -23,4 +23,4 @@ It looks something like this:
 can be found [here](https://github.com/hallopiu/betterdiscord-dark-theme/wiki/How-to-install)
 
 ### Interactive preview:
-http://redsli.me/discord/
+https://redslime.xyz/discord/
