@@ -1888,3 +1888,7 @@ Util
 .theme-dark .footer-2aTx0s {
     background: var(--modal-footer);
 }
+
+.guilds-wrapper .guilds .guild .guild-inner {
+    background: #0a0e15 !important;
+}
