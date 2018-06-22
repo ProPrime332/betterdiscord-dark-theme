@@ -1688,13 +1688,13 @@ Buttons
  */
 
 /** BLUE / PRIMARY **/
-.lookFilled-1Gx00P.colorBrand-3pXr91 {
+.lookFilled-1Gx00P.colorBrand-3pXr91, .headerButtonColor-G7_f-V {
     border: 1px solid var(--button-blue);
     background: transparent;
     color: var(--primary-blue);
 }
 
-.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover, .headerButtonColor-G7_f-V:hover {
     border: 1px solid transparent;
     background: var(--button-blue);
     color: white;
@@ -1782,11 +1782,11 @@ User Settings
 /**
 Status colors
  */
-.statusDnd-2DDKST {
+.statusDnd-2DDKST, .dnd-1_xrcq {
     background-color: #fe080b;
 }
 
-.statusOnline-1FlpW_ {
+.statusOnline-1FlpW_, .online-2S838R {
     background-color: var(--primary-green);
 }
 
@@ -1802,6 +1802,34 @@ Mentions
 .unread-mentions-indicator-bottom .unread-mentions-bar, .unread-mentions-indicator-top .unread-mentions-bar,
 .unread-mentions-indicator-bottom .unread-mentions-bar:hover, .unread-mentions-indicator-top .unread-mentions-bar:hover {
     animation: unread 1.5s infinite;
+}
+
+/**
+Games Tab
+ */
+
+.theme-dark .activityFeed-28jde9 {
+    background: linear-gradient(90deg, #101721, #0a0e15);
+}
+
+.paginationItem-3-MBTL:before {
+    background: var(--primary-blue);
+}
+
+.theme-dark .body-SKIE6r, .article-FleDq5 {
+    background-color: var(--modal-body);
+}
+
+.theme-dark .header-1RC2Wb, .theme-dark .header-1RC2Wb:hover {
+    background-color: var(--modal-header);
+}
+
+.news-2GDtLJ, .news-2GDtLJ:hover {
+    background-color: var(--modal-body);
+}
+
+.paginationItem-3-MBTL:after {
+    background: linear-gradient(270deg,transparent 0,#050f1d);
 }
 
 /**
@@ -1837,10 +1865,6 @@ Util
     background: var(--message-list);
 }
 
-.theme-dark .menu-Sp6bN1 {
-    background: var(--modal-header);
-}
-
 .theme-dark .item-1GzJrl:hover, .theme-dark .resultFocused-3aIoYe, .attachPopoutRow-KrE-f6:hover {
     background: var(--select-option-hover-gradient);
 }
@@ -1851,4 +1875,16 @@ Util
 
 .theme-dark .input-2VB9rf {
     filter: brightness(140%);
+}
+
+.theme-dark .menu-Sp6bN1 {
+    background: var(--modal-header);
+}
+
+.theme-dark .everyonePopout-nEbJY3 {
+    background: var(--modal-body);
+}
+
+.theme-dark .footer-2aTx0s {
+    background: var(--modal-footer);
 }
