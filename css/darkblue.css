@@ -225,8 +225,13 @@
 .theme-dark .message-group .comment .markup .mention:hover {
     background-color: rgb(22, 113, 148);
 }
-.theme-dark .message-group .mentioned .message-text {
+.theme-dark .message-group .mentioned .message-text, .theme-dark .isMentioned-N-h9aa {
     background: rgba(114, 137, 218, 0.18);
+}
+
+.isMentionedCozy-3isp7y:after {
+    background: rgb(44, 54, 77);
+    border-left: 4px solid #00b0f4;
 }
 .message-group .mentioned .message-text:after {
     border-left: 4px solid #4369c1;
@@ -246,6 +251,14 @@
 .private-channels .scroller {
     border-top: 1px solid #00b0f4;
     margin-top: -2px;
+}
+.theme-dark .wrapperHover-1GktnT:hover {
+    background-color: #096488;
+    color: #fff;
+}
+.theme-dark .wrapper-3WhCwL {
+    background-color: rgba(114, 214, 218, 0.1);
+    color: #00b0f4;
 }
 .chat>.title-wrap>.topic .aka, .aka-1mqp34 {
     background: #303b4e;
@@ -469,7 +482,7 @@
 #rtc-connection .rtc-connection-status-connected {
     color: #1cf7b2;
 }
-.theme-dark .message-group .comment .markup {
+.theme-dark .message-group .comment .markup, .theme-dark .markup-2BOw-j {
     color: #dce4ff;
 }
 #user-profile-modal .header .header-info .header-info-inner .activity {
@@ -579,9 +592,14 @@
 .message-group .comment .markup strong {
     color: #a6d7f1;
 }
-.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
+.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code, .theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {
     background: #141d29;
 }
+
+.theme-dark .embedDescription-1Cuq9a, .theme-dark .embedFieldValue-nELq2s, .theme-dark .embedFooterText-28V_Wb, .theme-dark .embedProvider-3k5pfl {
+    color: #cfdce2;
+}
+
 .theme-dark .invite-button {
     background-color: #161a21;
     border-color: #161a21;
