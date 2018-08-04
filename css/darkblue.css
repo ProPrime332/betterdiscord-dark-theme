@@ -304,15 +304,15 @@
     background: linear-gradient(120deg,#1ad6ff 0,#00ff8b 100%);
     color: #36393e !important;
 }
-.chat .new-messages-bar {
+.chat .new-messages-bar, .newMessagesBar-mujexs {
     background-color: #faa61a;
     margin-top: 10px;
     -webkit-animation: unread 2s ease-in-out infinite;
 }
-.chat .new-messages-bar button:last-child {
+.chat .new-messages-bar button:last-child, .newMessagesBar-mujexs button:last-child {
     color: #2b1e07;
 }
-.chat .new-messages-bar:hover {
+.chat .new-messages-bar:hover, .newMessagesBar-mujexs:hover {
     background-color: #faa61a;
 }
 .theme-dark .reaction.reaction-me {
@@ -1605,6 +1605,20 @@ Channel list
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+.theme-dark .guild-1EfMGQ.selected-ML3OIq:before {
+    background: var(--primary-blue);
+}
+
+/**
+Left side bar
+ */
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
+    background-color: #faa61a;
+    -webkit-animation: unread 2s ease-in-out infinite;
+    height: 3rem;
+    margin-top: -1.5rem;
+}
+
 /**
 User list
  */
@@ -1619,9 +1633,9 @@ User list
 /**
 Message list
  */
-.theme-dark .inner-zqa7da {
+.theme-dark .inner-zqa7da, .theme-dark .messagesWrapper-3lZDfY, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3,
+.theme-dark .divider-3gKybi span {
     background-color: var(--message-list);
-    filter: brightness(120%);
 }
 
 .theme-dark .autocomplete-1vrmpx {
@@ -1822,6 +1836,26 @@ Mentions
     animation: unread 1.5s infinite;
 }
 
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr>span {
+    color: var(--mention);
+}
+
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr>div {
+    background: var(--mention);
+}
+
+/**
+Mentions popout
+ */
+.theme-dark .messageGroupWrapper-o-Zw7G {
+    background-color: var(--message-list);
+    border-color: var(--modal-body);
+}
+
+.theme-dark .headerTabBarWrapper-27xBDe .tab-bar.TOP .tab-bar-item.selected {
+    border-bottom-color: var(--primary-blue);
+}
+
 /**
 Games Tab
  */
@@ -1848,6 +1882,18 @@ Games Tab
 
 .paginationItem-3-MBTL:after {
     background: linear-gradient(270deg,transparent 0,#050f1d);
+}
+
+/**
+Scrollers
+ */
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: #101721;
+    border-color: #101721;
+}
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: var(--message-list);
+    border-color: var(--message-list);
 }
 
 /**
@@ -1907,6 +1953,6 @@ Util
     background: var(--modal-footer);
 }
 
-.guilds-wrapper .guilds .guild .guild-inner {
+.guilds-wrapper .guilds .guild .guild-inner, .theme-dark .guildsWrapper-5TJh6A   {
     background: #0a0e15 !important;
 }
