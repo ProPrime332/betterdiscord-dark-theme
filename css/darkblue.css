@@ -1563,7 +1563,7 @@ Pinned Messages Modal
 /**
 Bottom user bar & call status
  */
-.container-2Thooq, .container-1UB9sr {
+.container-2Thooq, .container-1UB9sr, .theme-dark .container-2Thooq, .theme-light .container-2Thooq {
     background-color: var(--bottom-user-box);
     border-color: var(--bottom-user-box);
 }
