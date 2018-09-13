@@ -1571,7 +1571,7 @@ Bottom user bar & call status
 /**
 Channel list
  */
-.container-PNkimc {
+.container-PNkimc, .channels-Ie2l6A {
     background: var(--channel-list);
 }
 
@@ -1607,6 +1607,11 @@ Channel list
 
 .theme-dark .guild-1EfMGQ.selected-ML3OIq:before {
     background: var(--primary-blue);
+}
+
+.channel-2QD9_O.selected-1HYmZZ, .channel-2QD9_O:hover {
+    color: #fff;
+    background: linear-gradient(to right, var(--active-bg) 85%, var(--user-list));
 }
 
 /**
