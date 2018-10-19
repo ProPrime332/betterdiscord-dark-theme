@@ -1614,6 +1614,10 @@ Channel list
     background: linear-gradient(to right, var(--active-bg) 85%, var(--user-list));
 }
 
+.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a {
+    background-color: transparent;
+}
+
 /**
 Left side bar
  */
@@ -1899,6 +1903,51 @@ Scrollers
 .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece {
     background-color: var(--message-list);
     border-color: var(--message-list);
+}
+
+/**
+Activity Tab
+ */
+.exclusive-3zP8if {
+    background: var(--context-menu-gradient);
+}
+
+.article-3kb3qm {
+    background-color: var(--user-profile-body);
+}
+
+.paginationItem-2lUq0s:after {
+    background: linear-gradient(270deg,transparent 0,var(--user-profile-body));
+}
+
+.paginationItem-2lUq0s:before {
+    background: var(--primary-blue);
+}
+
+/**
+Games Tab
+ */
+.theme-dark .gameLibrary-TTDw4Y {
+    background-color: var(--channel-list);
+}
+
+/**
+Store Tab
+ */
+.theme-dark .applicationStore-1pNvnv {
+    background-color: var(--channel-list);
+}
+
+.theme-dark .tag-HanR-9:before, .theme-light .tag-HanR-9:before, .theme-dark .premium-39U29H:before, .theme-light .premium-39U29H:before {
+    background-image: 0;
+}
+
+.blog-2nw4E8, .theme-dark .premium-39U29H, .theme-light .premium-39U29H, .theme-dark .tag-HanR-9, .theme-light .tag-HanR-9 {
+    background: var(--context-menu-gradient);
+}
+
+.theme-dark .root-1bFE0x {
+    background-color: var(--modal-header);
 }
 
 /**
